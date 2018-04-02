@@ -12,10 +12,7 @@
 		2976A83A20721575003FFEC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2976A83820721575003FFEC4 /* Main.storyboard */; };
 		2976A83C20721577003FFEC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2976A83B20721577003FFEC4 /* Assets.xcassets */; };
 		2976A83F20721577003FFEC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2976A83D20721577003FFEC4 /* LaunchScreen.storyboard */; };
-		2976A84720721705003FFEC4 /* AdapterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976A84620721705003FFEC4 /* AdapterView.swift */; };
 		2976A849207218D0003FFEC4 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976A848207218D0003FFEC4 /* TableViewCell.swift */; };
-		2976A84B207219A3003FFEC4 /* ProfileViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976A84A207219A3003FFEC4 /* ProfileViewAdapter.swift */; };
-		2976A84D207219BF003FFEC4 /* ProfileValueDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976A84C207219BF003FFEC4 /* ProfileValueDescriptor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +23,7 @@
 		2976A83B20721577003FFEC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2976A83E20721577003FFEC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2976A84020721577003FFEC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2976A84620721705003FFEC4 /* AdapterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterView.swift; sourceTree = "<group>"; };
 		2976A848207218D0003FFEC4 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		2976A84A207219A3003FFEC4 /* ProfileViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewAdapter.swift; sourceTree = "<group>"; };
-		2976A84C207219BF003FFEC4 /* ProfileValueDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileValueDescriptor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,14 +58,11 @@
 			children = (
 				2976A83420721575003FFEC4 /* AppDelegate.swift */,
 				2976A83620721575003FFEC4 /* ViewController.swift */,
-				2976A84620721705003FFEC4 /* AdapterView.swift */,
-				2976A83820721575003FFEC4 /* Main.storyboard */,
 				2976A848207218D0003FFEC4 /* TableViewCell.swift */,
+				2976A83820721575003FFEC4 /* Main.storyboard */,
 				2976A83B20721577003FFEC4 /* Assets.xcassets */,
 				2976A83D20721577003FFEC4 /* LaunchScreen.storyboard */,
 				2976A84020721577003FFEC4 /* Info.plist */,
-				2976A84A207219A3003FFEC4 /* ProfileViewAdapter.swift */,
-				2976A84C207219BF003FFEC4 /* ProfileValueDescriptor.swift */,
 			);
 			path = AMExpandableTableView;
 			sourceTree = "<group>";
@@ -150,9 +141,6 @@
 				2976A83720721575003FFEC4 /* ViewController.swift in Sources */,
 				2976A849207218D0003FFEC4 /* TableViewCell.swift in Sources */,
 				2976A83520721575003FFEC4 /* AppDelegate.swift in Sources */,
-				2976A84B207219A3003FFEC4 /* ProfileViewAdapter.swift in Sources */,
-				2976A84D207219BF003FFEC4 /* ProfileValueDescriptor.swift in Sources */,
-				2976A84720721705003FFEC4 /* AdapterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
